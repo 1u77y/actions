@@ -1,11 +1,5 @@
 name: "schedule-workflow"
-on:
-    # schedule: 
-    #     - cron: '*/2 * * * *'
-    push:
-        branches:
-            - main
-            - dev
+on: [push]
 
 jobs: 
     hello_world:
